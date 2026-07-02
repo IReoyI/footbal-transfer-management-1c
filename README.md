@@ -1,101 +1,70 @@
 # Football Transfer Management (1C:Enterprise 8.3)
 
-**Language / Язык:** [🇬🇧 English](#english) | [🇷🇺 Русский](#русский)
-
----
-
-## <a id="english"></a>🇬🇧 English
+**English | [Русская версия](#русская-версия)**
 
 ## About
 
 This project is an information system developed on the **1C:Enterprise 8.3** platform for managing football club transfers.
 
-The system automates player registration, club management and transfer operations.
+The system automates player registration, club management, transfer operations, and squad management.
 
----
-
-## Features
+### Features
 
 - Player management
-- Club management
-- Countries directory
-- Player transfers
-- Club squad management
+- Football club management
+- Transfer registration
+- Squad management
 - Reports
-- Queries
+- Data processing using queries
 - Import players from Microsoft Excel
 - Duplicate detection during import
 
----
-
-## Technologies
+### Technologies
 
 - 1C:Enterprise 8.3
-- 1C Query Language
 - Built-in 1C language
+- 1C Query Language
 - Microsoft Excel
 
----
+### Repository Contents
 
-## Project Structure
-
-```text
-source/
-docs/
-screenshots/
-```
+- `FootballTransferManagement.dt` — exported 1C information base.
 
 ---
 
-## Author
+# Русская версия
 
-Dmitry Selivanov
-
----
-
-## <a id="русский"></a>🇷🇺 Русский
+**[English](#football-transfer-management-1centerprise-83) | Русская версия**
 
 ## О проекте
 
-Данный проект представляет собой информационную систему, разработанную на платформе **1С:Предприятие 8.3** для управления футбольными трансферами.
+Информационная система, разработанная на платформе **1С:Предприятие 8.3**, предназначенная для автоматизации управления трансферами футбольного клуба.
 
-Система автоматизирует регистрацию игроков, управление клубами и выполнение трансферных операций.
+Система позволяет вести учет игроков, футбольных клубов, трансферных операций и состава команд.
 
----
+### Возможности
 
-## Возможности
-
-- Управление игроками
-- Управление клубами
-- Справочник стран
-- Трансферы игроков
-- Управление составами клубов
-- Отчеты
-- Запросы
+- Ведение справочников игроков, клубов и стран
+- Оформление и учет трансферов игроков
+- Учет состава клуба
+- Формирование отчетов
+- Использование запросов для обработки данных
 - Импорт игроков из Microsoft Excel
-- Поиск дубликатов при импорте
+- Проверка на наличие дубликатов при импорте
 
----
-
-## Технологии
+### Используемые технологии
 
 - 1С:Предприятие 8.3
-- Язык запросов 1С
 - Встроенный язык 1С
+- Язык запросов 1С
 - Microsoft Excel
 
----
+### Содержимое репозитория
 
-## Структура проекта
-
-```text
-source/
-docs/
-screenshots/
-```
+- `FootballTransferManagement.dt` — выгрузка информационной базы 1С.
 
 ---
 
-## Автор
+## Author / Автор
 
-Дмитрий Селиванов
+**Dmitry Selivanov**
